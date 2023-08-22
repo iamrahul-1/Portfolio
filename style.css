@@ -179,6 +179,26 @@ a {
 
 
 
+@media only screen and (max-width: 460px){
+    .content{
+        font-size: 17px !important;
+    }
+    .arw {
+        height: 7rem;
+    }
+    .box1{
+        width: 90vw;
+    }
+    .box2{
+        width: 90vw;
+    }
+    .box3{
+        width: 90vw;
+    }
+    .box4{
+        width: 90vw;
+    }
+}
 
 
 
