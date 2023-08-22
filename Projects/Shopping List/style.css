@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+li {
+	cursor: pointer;
+}
+
+.btn-style {
+	background-image: linear-gradient(102deg, #ff7426 0, #f93a13 100%);
+	border-color: #FF994E;
+	border-radius: 10px 5px;
+	color: #FFF4ED;
+	padding: 7px;
+}
+
+#enter {
+	background-image: linear-gradient(102deg, #029F02 0, #3DC93D 100%);
+	border-color: #3DC93D;
+	border-radius: 10px 5px;
+	color: #FFF4ED;
+	padding: 7px;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: url(rockets.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0px;
+  margin-bottom: 0.25em;
+}
+header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
