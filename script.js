@@ -20,3 +20,12 @@ window.addEventListener('scroll', function(){
   console.log('scrollY :' + window.scrollY);
   console.log(sticky);
 })
+
+const navigation = document.querySelector("#navbar");
+
+const navigationHeight = navigation.offsetHeight;
+
+document.documentElement.style.setProperty(
+  "--scroll-padding",
+  navigationHeight + "px"
+);

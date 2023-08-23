@@ -6,6 +6,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
 }
 
 body {
@@ -60,7 +61,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
   }
 
 .ul{
@@ -85,10 +86,6 @@ a {
     background-color: rgb(173, 236, 122);
 }
 
-.about {
-    position: relative;
-}
-
 
 .content{
     width: 90%;
@@ -106,7 +103,10 @@ a {
 
 
 
-
+ 
+#pg4{
+    height: 120vh; 
+}
 
 #pg5{
     height: 100vh;
