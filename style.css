@@ -105,7 +105,7 @@ a {
 
  
 #pg4{
-    height: 120vh; 
+    height: 60rem; 
 }
 
 #pg5{
@@ -182,11 +182,11 @@ a {
     z-index: 1;
 } */
 
-/* @media only screen and (max-width: 500px){
-    .full-only {
-        display: none;
+@media only screen and (max-width: 500px){
+    #pg4{
+        height: 40rem;
     }
-} */
+}
 
 @media only screen and (max-width: 375px){
     .content{
@@ -207,6 +207,7 @@ a {
     .box4{
         width: 90vw;
     }
+    
 }
 
 
