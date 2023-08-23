@@ -113,33 +113,31 @@ a {
 }
 
 .box1 {
-    width: 50vw;
+    width: 60vw;
     height: auto;
-    transition: all 0.2s;
-
+    transition: all 0.2s; 
 }
+
+.im1{
+    position: absolute;
+}
+
 .box2 {
-    width: 50vw;
+    width: 60vw;
     height: auto;
     transition: all 0.2s;
 }
 .box3 {
-    width: 50vw;
+    width: 60vw;
     height: auto;
     transition: all 0.2s;
 }
 .box4 {
-    width: 50vw;
+    width: 60vw;
     height: auto;
     transition: all 0.2s;
 }
 
-
-
-.size:hover {
-    transform: scale(1.05);
-    border: 5px solid greenyellow;
-}
 
 
 .box1:hover, .box2:hover, .box3:hover, .box4:hover{
@@ -147,6 +145,7 @@ a {
     z-index: 1;
     border: 5px solid rgb(233, 126, 26);
     background-color: rgb(0, 0, 0);
+
     /* overflow: hidden; */
     
 }
