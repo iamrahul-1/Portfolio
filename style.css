@@ -101,9 +101,6 @@ a {
 
 
  
-#pg4{
-    height: 60rem; 
-}
 
 .blue-box {
     height: 100%;
@@ -119,30 +116,22 @@ a {
     width: 50vw;
     height: auto;
     transition: all 0.2s;
-    position: absolute;
-    top: 0px;
 
 }
 .box2 {
     width: 50vw;
     height: auto;
     transition: all 0.2s;
-    position: absolute;
-    top: 80px;
 }
 .box3 {
     width: 50vw;
     height: auto;
     transition: all 0.2s;
-    position: absolute;
-    top: 160px;
 }
 .box4 {
     width: 50vw;
     height: auto;
     transition: all 0.2s;
-    position: absolute;
-    top: 240px;
 }
 
 
@@ -177,9 +166,10 @@ a {
 } */
 
 @media only screen and (max-width: 500px){
-    #pg4{
-        height: 40rem;
+    .arw {
+        height: 7rem;
     }
+
 }
 
 @media only screen and (max-width: 375px){
