@@ -1,113 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+<head>	
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rahul Chauhan</title>
-	
+
+	<title>Rahul Chauhan</title>	
 </head>
+
 <body>
-	<div id="pg1" class="flex flex-column items-center justify-center bg-navy">
-		<!-- <img src="./Images/Logo.png" alt="logo" class="image"> -->
-		<div class="flex items-center justify-center div2">
-			<h1 class="white f1 measure mv5 pa2">
-				Hello, I'm <span>Rahul Chauhan.</span><br>
-				I'm a Full Stack Web Developer.
-			</h1>
-		</div>
-		<div class="btn flex flex-column items-center hide-child">
+	<header id="pg1" class="flex flex-column items-center justify-center">
+		<h1 class="white f1 measure mv pa2">
+			Hello, I'm <span>Rahul Chauhan.</span><br>
+			I'm a Full Stack Web Developer.
+		</h1>
+		<div class="btn flex flex-column items-center">
 			<a href="#pg2">
-				<button class="b ba b--white pa3 white db hover-black bg-transparent bg-animate hover-bg-light-blue" role="button">
+				<button 
+				class="button b ba b--white pa3 white hover-black bg-transparent bg-animate hover-bg-light-blue" role="button">
 					View My Work
 				</button>			
 			</a>
-			<div class="child">
-				<img class="arw" src="./images/arrow.png" alt="arrow">
-			</div>
 		</div>		
-	</div>
+	</header>
 
-	<div id="pg2" class=" flex flex-column items-center">
-		<div class="ba bw2 b--mid-gray w-100"></div>
-		<div id="navbar" class="flex bg-light-purple justify-center items-center ul">
-			<a href="#pg1" class=" hover-bg-light-blue pa2 b li h-100 flex items-center ">Home</a>
-			<a href="#pg2" class=" hover-bg-light-blue pa2 b li h-100 flex items-center ">About</a>
-			<a href="#pg4" class=" hover-bg-light-blue pa2 b li h-100 flex items-center ">Projects</a>
-			<a href="#pg5" class=" hover-bg-light-blue pa2 b li h-100 flex items-center ">Contact</a>
-		</div>
-		<div id="pg3" class="flex flex-column items-center">
-			
-			<h1 class="f1 measure mb1 ">About</h1>
-			<p class="tc f4 b mh4 tj lh-copy content">
-				
-			In class 11th I decided to take CS (Computer Science) as an additional subject. At that time,
-			My love for coding ignited. I was way ahead of my classmates and also solved problems.
-			which were for higher classes. Then, due to some circumstances, I changed schools, and my 
-			career path changed from science to commerce. I completed my graduation (B.Com) and worked as an accountant for
-			6 month. In this six-month period, I encountered many websites with mind-blowing designs.
-			And it made me wonder how this was created. What is the logic behind that?
-			reigniting my passion for coding and problem solving. 
-			I left my job and took UDEMY's web development course. 
-			And learned many new languages. And this is how my coding journey started again :)
-			</p>
-			<div class="full-only"><img src="./images/journey.jpg" alt="journey"></div>
-		</div>
+	<section id="pg2" class="flex flex-column items-center">	
+		<h1 class="f1 measure mt5">A little Story...</h1>
+		<p class="f4  story">
+			In class 11th I decided to take CS(Computer Science) as additional subject, at that time 
+			my love for coding ignited. I was way ahead of my classmates, and also solved problems
+			which were for higher class.Then due to some circumstances I changed my school and
+			my stream from Science to commerce. Completed my graduation(B.Com) and worked as accountant for 
+			6 month. In this 6 months duration i encountered many websites with mind blowing designs
+			and those made me wonder how this is designed? what is the logic behind that?
+			reigniting my passion for coding and problem solving. Left my job, took UDEMY's web development 
+			course and leaned many new languages. And this is how my coding journey started again :)
+		</p>
+	</section>
 		
-		<div id="pg4" class="flex flex-column items-center"> <!-- class ba b--red bw4  -->
-			<h1 class="f1 measure title mt4">Projects</h1>
-	
-			 <div class="flex flex-column items-center blue-box mh2"> <!-- class ba b--blue bw3  -->
-				<div class="tc f4 b mh2 tj content">
-					Projects I made during my course ♥. I will keep updating this section
-					as I progress.
-				</div>
-				<div class=" flex flex-column items-center img-grid"> <!-- class ba b--green bw2  -->
-					<div class="box1 flex justify-center" >
-						<a href="https://iamrahul-1.github.io/Robofriends/"><img class="im1" src="./images/robo.png" alt=""></a>
-					</div> <!-- class ba b--yellow bw2 -->
-					<div class="box2 flex justify-center" >
-						<a href="https://iamrahul-1.github.io/backgroundGenerator/"><img class="im2" src="./images/gradient.png" alt=""></a>
-					</div> <!-- class ba b--yellow bw2  -->
-					<div class="box3 flex justify-center" >
-						<a href="https://iamrahul-1.github.io/Shopping_List/"><img class="im3" src="./images/shopping.png" alt=""></a>
-					</div> <!-- class ba b--yellow bw2  -->
-					<div class="box4 flex justify-center" >
-						<a href="https://iamrahul-1.github.io/StartupPage/"><img class="im4" src="./images/startup.png" alt=""></a>
-					</div> <!-- class ba b--yellow bw2  -->
-				</div>
-			</div>   
-		</div>
-		<div class="h1"></div>
-		<div id="pg5" class="flex flex-column items-center">
-			<h1 class="title f1 measure">Contact</h1>
-			<div class="flex flex-wrap items-center justify-around">
-				<div class="ma3"><img src="./images/Resume.png" alt="resume"></div>
-				<div>
-					<a href="https://drive.google.com/uc?export=download&id=1KnzaZREoJBwKbOACt6RA2Jd0N38llCig">
-						<button class="grow b ba pa3 db hover-black bg-transparent bg-animate hover-bg-light-blue" role="button"> 
-							Download Resume 
-						</button>
+	<section id="pg3" class="flex flex-column items-center "> 
+		
+		<h1 class=" f1 mt5">Projects</h1>
+		<div class="flex flex-column items-center "> 
+			<div class="tc f4">
+				Projects I made during my course ♥. I will keep updating this section
+				as I progress.
+			</div>
+			<div class="flex flex-wrap justify-center project-box">
+				<div class="flex flex-column items-center project">
+					<a href="https://iamrahul-1.github.io/Robofriends/">
+						<img class="image shadow-1 grow" src="./images/robo.png" alt="">
 					</a>
-					
+					<p class="tc f6">Project made with React.js using robohash API</p>
+				</div>
+				<div class="flex flex-column items-center project">
+					<a href="https://iamrahul-1.github.io/backgroundGenerator/">
+						<img class="image grow shadow-1" src="./images/gradient.png" alt="">
+					</a>
+					<p class="tc f6">Random Gradient Background Generator using DOM manipulation</p>
+				</div>
+
+				<div class="flex flex-column items-center project">
+					<a href="https://iamrahul-1.github.io/Shopping_List/">
+						<img class="image grow shadow-1" src="./images/shopping.png" alt="">
+					</a>
+					<p class="tc f6">Interactive Shopping List made with JavaScript and DOM </p>
 				</div>
 				
+				<div class="flex flex-column items-center project">
+					<a href="https://iamrahul-1.github.io/StartupPage/">
+						<img class="image grow shadow-1" src="./images/startup.png" alt="">
+					</a>
+					<p class="tc f6">Startup Page With mailchimp to collect potential clients emails</p>
+				</div>
 			</div>
-			
 		</div>
-		<div class="mt6 bg-navy moon-gray flex justify-center items-center b w-100 ">
-			<p class="pa2 tc">Made with ♥ by Rahul Chauhan<br>
-			2023
+	</section>
+
+	<section id="pg4" class="flex flex-column items-center">
+		<h1 class="f1 measure mt4">Contact</h1>
+		<div class="ma3"><img src="./images/Resume.png" alt="resume"></div>
+		<div>
+			<a class="dwld-btn" href="https://drive.google.com/uc?export=download&id=1KnzaZREoJBwKbOACt6RA2Jd0N38llCig">
+				<button class="grow b ba pa3 db hover-black bg-transparent bg-animate hover-bg-light-blue button" role="button"> 
+					Download Resume 
+				</button>
+			</a>	
+		</div>
+		<div class="f6 b mt5 copy">
+			<p class="pa2 tc ">
+				Made with ♥ by <span>Rahul Chauhan</span><br> &copy 2024
 			</p>
 		</div>
-	</div>
-	
-	
-<script type="text/javascript" src="script.js"></script>
+	</section>
+
 </body>
 </html>

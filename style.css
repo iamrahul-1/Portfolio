@@ -1,202 +1,83 @@
-/* ------------------------------------ BODY CSS ---------------------------- */
-
 * {
-    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
 }
-
-html{
-    scroll-behavior: smooth;
-    scroll-padding: var(--scroll-padding, 5rem);
-}
-
-body {
-   /* margin: 0;  */
-   font-family: 'Raleway', sans-serif;
-   
-}
-
-/* ------------------------------------ PAGE 1 ---------------------------- */
+/* page 1 */
 
 #pg1 {
-    background-color: #01122B;
     height: 100vh;
-}
-span{
-    color: rgb(199, 24, 103);
-}
-.button:hover {
-    border-color: #96ccff;
-}
-.arw {
-    width: auto;
-    height: 11rem;
+} 
+
+header {
+    background-color: #201E20;
 }
 
-.btn {
-    height: 15vh;
+span {
+    color: #E0A96D
+}
+/* page 2 */
+
+#pg2 {
+    height: 100%;
+    background-color: #DDC3A5;
+    border-top: 10px solid #E0A96D
 }
 
-a {
+.story {
+    margin: auto 300px;
+    text-align: center;
+    line-height: 2.5;
+    padding-bottom: 7rem;
+}
+
+/* page 3 */
+
+#pg3 {
+    height: 100%;
+    background-color: #DDC3A5;
+    border-top: 10px solid #201E20;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+    margin: 0px 18px;
+
+}
+
+.project-box {
+    padding: 3rem 0px;
+}
+
+.project {
+    margin: 20px;
+}
+
+.project p {
+    margin: 10px;
+}
+
+/* page 4 */
+
+#pg4 {
+    height: 100%;
+    background-color: #DDC3A5;
+    border-top: 10px solid #201E20
+}
+
+.button {
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.dwld-btn {
     text-decoration: none;
-}
-/* ------------------------------------ PAGE 2 ---------------------------- */
-
-
-/* .nav {
-    height: 3rem;
-    width: 100%;
-    margin-bottom: 4rem;
-} */
-
-.title{
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-}
-
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-
-.ul{
-    width: 100%;
-    height: 4rem;
-    padding: 0;
-    margin-top: 0;
-    position: sticky;
-}
-
-.li{
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
     color: black;
 }
-
-.circle{ 
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    background-color: rgb(173, 236, 122);
+.copy {
+    background-color: #201E20;
+    color: #ffffff;
+    width: 100%;
 }
-
-
-.content{
-    width: 90%;
-}
-.full-only {
-    width: 90%;
-    height: 35%;
-}
-
-
-
-
-
-
-
-
-
- 
-
-.blue-box {
-    height: 100%;
-}
-
-.img-grid{
-    margin-top: 30px;
-    height: 100%;
-    position: relative;
-}
-
-.box1 {
-    width: 60vw;
-    height: auto;
-    transition: all 0.2s; 
-}
-
-
-
-.box2 {
-    width: 60vw;
-    height: auto;
-    transition: all 0.2s;
-}
-.box3 {
-    width: 60vw;
-    height: auto;
-    transition: all 0.2s;
-}
-.box4 {
-    width: 60vw;
-    height: auto;
-    transition: all 0.2s;
-}
-
-
-
-.box1:hover, .box2:hover, .box3:hover, .box4:hover{
-    transition: all 0.5s;
-    z-index: 1;
-    border: 5px solid rgb(233, 126, 26);
-    background-color: rgb(0, 0, 0);
-
-    /* overflow: hidden; */
-    
-}
-.im1:hover, .im2:hover, .im3:hover, .im4:hover {
-    opacity: 0.4;
-}
-
-
-
-
-/* .image {
-    height: auto;
-    width: 60%;
-    opacity: 0.15;
-    position: absolute;
-    z-index: 1;
-} */
-
-@media only screen and (max-width: 500px){
-    .arw {
-        height: 7rem;
-    }
-
-}
-
-@media only screen and (max-width: 375px){
-    .content{
-        font-size: 16px !important;
-    }
-    .arw {
-        height: 7rem;
-    }
-    .box1{
-        width: 90vw;
-    }
-    .box2{
-        width: 90vw;
-    }
-    .box3{
-        width: 90vw;
-    }
-    .box4{
-        width: 90vw;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
- 
