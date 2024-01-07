@@ -14,6 +14,10 @@ header {
     background-color: #201E20;
 }
 
+header h1 {
+    font-size: 3rem;
+}
+
 span {
     color: #E0A96D
 }
@@ -25,11 +29,16 @@ span {
     border-top: 10px solid #E0A96D
 }
 
+.title {
+    font-size: 3rem;
+}
+
 .story {
     margin: auto 300px;
     text-align: center;
     line-height: 2.5;
     padding-bottom: 7rem;
+    font-size: 1.25rem;
 }
 
 /* page 3 */
@@ -45,6 +54,10 @@ span {
     height: auto;
     margin: 0px 18px;
 
+}
+
+.pro-des{
+    font-size: 1.25rem;
 }
 
 .project-box {
@@ -70,6 +83,7 @@ span {
 .button {
     border-radius: 25px;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .dwld-btn {
@@ -80,4 +94,27 @@ span {
     background-color: #201E20;
     color: #ffffff;
     width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    header h1 {
+        font-size: 1.9rem;
+    }
+
+    .story {
+        margin: auto 40px;
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 1.9rem;
+    }
+
+    .image{ 
+        width: 280px;
+    }
+
+    .pro-des{
+        font-size: 16px;
+    }
 }
