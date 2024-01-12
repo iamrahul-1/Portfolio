@@ -54,6 +54,7 @@ span {
     width: 400px;
     height: auto;
     margin: 0px 18px;
+    border-radius: 25px;
 
 }
 
@@ -84,7 +85,7 @@ span {
 .button {
     border-radius: 25px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .dwld-btn {
@@ -95,6 +96,10 @@ span {
     background-color: #201E20;
     color: #ffffff;
     width: 100%;
+}
+
+.resume {
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 1024px) {
