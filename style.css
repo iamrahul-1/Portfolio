@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     line-height: 1.4;
+    scroll-behavior: smooth;
 }
 /* page 1 */
 
@@ -96,13 +97,31 @@ span {
     width: 100%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1024px) {
+    .story {
+        margin: auto 70px;
+        font-size: 18px;
+    }
+    .f6 {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .story {
+        margin: auto 40px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 425px){
     header h1 {
         font-size: 1.9rem;
     }
 
     .story {
-        margin: auto 40px;
+        margin: auto 20px;
         font-size: 16px;
     }
 
@@ -111,7 +130,7 @@ span {
     }
 
     .image{ 
-        width: 280px;
+        width: 238px;
     }
 
     .pro-des{
