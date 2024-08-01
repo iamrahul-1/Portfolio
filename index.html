@@ -1,113 +1,161 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
 
-<head>	
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rahul Chauhan</title>
+  </head>
 
-	<title>Rahul Chauhan</title>	
-</head>
+  <body>
+    <header id="pg1" class="flex flex-column items-center justify-center">
+      <h1 class="white measure mv pa2">
+        Hello, I'm <span>Rahul Chauhan.</span><br />
+        I'm a Full Stack Web Developer.
+      </h1>
+      <div class="btn flex flex-column items-center">
+        <a href="#pg2">
+          <button
+            class="button b ba b--white pa3 white hover-black bg-transparent bg-animate hover-bg-light-blue"
+            role="button"
+          >
+            View My Work
+          </button>
+        </a>
+      </div>
+    </header>
 
-<body>
-	<header id="pg1" class="flex flex-column items-center justify-center">
-		<h1 class="white measure mv pa2">
-			Hello, I'm <span>Rahul Chauhan.</span><br>
-			I'm a Full Stack Web Developer.
-		</h1>
-		<div class="btn flex flex-column items-center">
-			<a href="#pg2">
-				<button 
-				class="button b ba b--white pa3 white hover-black bg-transparent bg-animate hover-bg-light-blue" role="button">
-					View My Work
-				</button>			
-			</a>
-		</div>		
-	</header>
+    <section id="pg2" class="flex flex-column items-center">
+      <h1 class="title mt5">A little Story...</h1>
+      <p class="story">
+        In class 11th I decided to take CS(Computer Science) as additional
+        subject, at that time my love for coding ignited. I was way ahead of my
+        classmates, and also solved problems which were for higher class.Then
+        due to some circumstances I changed my school and my stream from Science
+        to commerce. Completed my graduation(B.Com) and worked as accountant for
+        6 month. In this 6 months duration i encountered many websites with mind
+        blowing designs and those made me wonder how this is designed? what is
+        the logic behind that? reigniting my passion for coding and problem
+        solving. Left my job, took UDEMY's web development course and leaned
+        many new languages. And this is how my coding journey started again :)
+      </p>
+    </section>
 
-	<section id="pg2" class="flex flex-column items-center">	
-		<h1 class="title mt5">A little Story...</h1>
-		<p class="story">
-			In class 11th I decided to take CS(Computer Science) as additional subject, at that time 
-			my love for coding ignited. I was way ahead of my classmates, and also solved problems
-			which were for higher class.Then due to some circumstances I changed my school and
-			my stream from Science to commerce. Completed my graduation(B.Com) and worked as accountant for 
-			6 month. In this 6 months duration i encountered many websites with mind blowing designs
-			and those made me wonder how this is designed? what is the logic behind that?
-			reigniting my passion for coding and problem solving. Left my job, took UDEMY's web development 
-			course and leaned many new languages. And this is how my coding journey started again :)
-		</p>
-	</section>
-		
-	<section id="pg3" class="flex flex-column items-center "> 
-		
-		<h1 class=" title mt5">Projects</h1>
-		<div class="flex flex-column items-center "> 
-			<div class="tc mh2 pro-des">
-				Projects I made during my course ♥. I will keep updating this section
-				as I progress.
-			</div>
-			
-			<div class="flex flex-wrap justify-center project-box">
-				<div class="flex flex-column items-center project">
+    <section id="pg3" class="flex flex-column items-center">
+      <h1 class="title mt5">Projects</h1>
+      <div class="flex flex-column items-center">
+        <div class="tc mh2 pro-des">
+          Projects I made during my course ♥. I will keep updating this section
+          as I progress.
+        </div>
+
+        <div class="flex flex-wrap justify-center project-box">
+          <!-- <div class="flex flex-column items-center project">
 					<a href="https://smart-brain-2bd0.onrender.com/">
 						<img class="image grow shadow-1" src="./images/sb.png" alt="">
 					</a>
 					<p class="tc f6">Full Stack Web App with frontend, backend, database and Face Recognition API integration</p>
-				</div>
-				<div class="flex flex-column items-center project">
-					<a href="https://iamrahul-1.github.io/Robofriends/">
-						<img class="image shadow-1 grow" src="./images/robo.png" alt="">
-					</a>
-					<p class="tc f6">Project made with React.js using robohash API</p>
-				</div>
-				<div class="flex flex-column items-center project">
-					<a href="https://iamrahul-1.github.io/backgroundGenerator/">
-						<img class="image grow shadow-1" src="./images/gradient.png" alt="">
-					</a>
-					<p class="tc f6">Random Gradient Background Generator using DOM manipulation</p>
-				</div>
+				</div> -->
+          <div class="flex flex-column items-center project">
+            <a href="#">
+              <img class="image shadow-1 grow" src="./images/gym.png" alt="" />
+            </a>
+            <p class="tc f6">
+              Fullstack website with admin, member login and management<br />
+              <strong>(Under development)</strong>
+            </p>
+          </div>
+          <div class="flex flex-column items-center project">
+            <a href="https://iamrahul-1.github.io/calc">
+              <img class="image shadow-1 grow" src="./images/calc.png" alt="" />
+            </a>
+            <p class="tc f6">Basic Calculator made in duration of Intership</p>
+          </div>
+          <div class="flex flex-column items-center project">
+            <a href="https://iamrahul-1.github.io/Robofriends/">
+              <img class="image shadow-1 grow" src="./images/robo.png" alt="" />
+            </a>
+            <p class="tc f6">Project made with React.js using robohash API</p>
+          </div>
+          <div class="flex flex-column items-center project">
+            <a href="https://iamrahul-1.github.io/backgroundGenerator/">
+              <img
+                class="image grow shadow-1"
+                src="./images/gradient.png"
+                alt=""
+              />
+            </a>
+            <p class="tc f6">
+              Random Gradient Background Generator using DOM manipulation
+            </p>
+          </div>
 
-				<div class="flex flex-column items-center project">
-					<a href="https://iamrahul-1.github.io/Shopping_List/">
-						<img class="image grow shadow-1" src="./images/shopping.png" alt="">
-					</a>
-					<p class="tc f6">Interactive Shopping List made with JavaScript and DOM </p>
-				</div>
-				
-				<div class="flex flex-column items-center project">
-					<a href="https://iamrahul-1.github.io/StartupPage/">
-						<img class="image grow shadow-1" src="./images/startup.png" alt="">
-					</a>
-					<p class="tc f6">Startup Page With mailchimp to collect potential clients emails</p>
-				</div>
-				
-			</div>
-		</div>
-	</section>
+          <div class="flex flex-column items-center project">
+            <a href="https://iamrahul-1.github.io/Shopping_List/">
+              <img
+                class="image grow shadow-1"
+                src="./images/shopping.png"
+                alt=""
+              />
+            </a>
+            <p class="tc f6">
+              Interactive Shopping List made with JavaScript and DOM
+            </p>
+          </div>
 
-	<section id="pg4" class="flex flex-column items-center">
-		<h1 class="title mt4">Contact</h1>
-		<div class="ma3"><img class="resume shadow-2" src="./images/Resume.png" alt="resume"></div>
-		<div>
-			<a class="dwld-btn" href="https://drive.google.com/file/d/110vPacr4pBfYoo-CUxmgGPJhYJb7JvfL/view?usp=drivesdk">
-				<button class="grow b ba pa3 db hover-black bg-transparent bg-animate hover-bg-light-blue button" role="button"> 
-					Download Resume 
-				</button>
-			</a>	
-		</div>
-		<div class="f6 b mt5 copy">
-			<p class="pa2 tc ">
-				Made with ♥ by <span>Rahul Chauhan</span><br> &copy 2024
-			</p>
-		</div>
-	</section>
+          <div class="flex flex-column items-center project">
+            <a href="https://iamrahul-1.github.io/StartupPage/">
+              <img
+                class="image grow shadow-1"
+                src="./images/startup.png"
+                alt=""
+              />
+            </a>
+            <p class="tc f6">
+              Startup Page With mailchimp to collect potential clients emails
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section id="pg4" class="flex flex-column items-center">
+      <h1 class="title mt4">Contact</h1>
+      <div class="ma3">
+        <img class="resume shadow-2" src="./images/Resume.png" alt="resume" />
+      </div>
+      <div>
+        <a
+          class="dwld-btn"
+          href="https://drive.google.com/file/d/110vPacr4pBfYoo-CUxmgGPJhYJb7JvfL/view?usp=drivesdk"
+        >
+          <button
+            class="grow b ba pa3 db hover-black bg-transparent bg-animate hover-bg-light-blue button"
+            role="button"
+          >
+            Download Resume
+          </button>
+        </a>
+      </div>
+      <div class="f6 b mt5 copy">
+        <p class="pa2 tc">
+          Made with ♥ by <span>Rahul Chauhan</span><br />
+          &copy 2024
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
