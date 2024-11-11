@@ -1,144 +1,143 @@
 * {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.4;
-    scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  scroll-behavior: smooth;
 }
 /* page 1 */
 
 #pg1 {
-    height: 100vh;
-} 
+  height: 100vh;
+}
 
 header {
-    background-color: #201E20;
+  background-color: #1a1a1d;
 }
 
 header h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 span {
-    color: #E0A96D
+  color: #a64d79;
 }
 /* page 2 */
 
 #pg2 {
-    height: 100%;
-    background-color: #DDC3A5;
-    border-top: 10px solid #E0A96D
+  height: 100%;
+  background-color: #3b1c32;
+  color: rgb(190, 190, 190);
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .story {
-    margin: auto 300px;
-    text-align: center;
-    line-height: 2.5;
-    padding-bottom: 7rem;
-    font-size: 1.25rem;
+  margin: auto 300px;
+  text-align: left;
+  line-height: 2.5;
+  padding-bottom: 7rem;
+  font-size: 1.25rem;
 }
 
 /* page 3 */
 
 #pg3 {
-    height: 100%;
-    background-color: #DDC3A5;
-    border-top: 10px solid #201E20;
+  height: 100%;
+  background-color: #6a1e55;
+  color: rgb(190, 190, 190);
 }
 
 .image {
-    width: 400px;
-    height: auto;
-    margin: 0px 18px;
-    border-radius: 25px;
-
+  width: 400px;
+  height: auto;
+  margin: 0px 18px;
+  border-radius: 25px;
 }
 
-.pro-des{
-    font-size: 1.25rem;
+.pro-des {
+  font-size: 1.25rem;
 }
 
 .project-box {
-    padding: 3rem 0px;
+  padding: 3rem 0px;
 }
 
 .project {
-    margin: 20px;
+  margin: 20px;
 }
 
 .project p {
-    margin: 10px;
+  margin: 10px;
 }
 
 /* page 4 */
 
 #pg4 {
-    height: 100%;
-    background-color: #DDC3A5;
-    border-top: 10px solid #201E20
+  height: 100%;
+  background-color: #3b1c32;
+  color: rgb(190, 190, 190);
 }
 
 .button {
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(190, 190, 190);
 }
 
 .dwld-btn {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: rgb(190, 190, 190);
 }
 .copy {
-    background-color: #201E20;
-    color: #ffffff;
-    width: 100%;
+  background-color: #201e20;
+  color: #ffffff;
+  width: 100%;
 }
 
 .resume {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .story {
-        margin: auto 70px;
-        font-size: 18px;
-    }
-    .f6 {
-        font-size: 1rem;
-    }
+  .story {
+    margin: auto 70px;
+    font-size: 18px;
+  }
+  .f6 {
+    font-size: 1rem;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
-    .story {
-        margin: auto 40px;
-        font-size: 16px;
-    }
+  .story {
+    margin: auto 40px;
+    font-size: 16px;
+  }
 }
 
-@media only screen and (max-width: 425px){
-    header h1 {
-        font-size: 1.9rem;
-    }
+@media only screen and (max-width: 425px) {
+  header h1 {
+    font-size: 1.9rem;
+  }
 
-    .story {
-        margin: auto 20px;
-        font-size: 16px;
-    }
+  .story {
+    margin: auto 20px;
+    font-size: 16px;
+  }
 
-    .title{
-        font-size: 1.9rem;
-    }
+  .title {
+    font-size: 1.9rem;
+  }
 
-    .image{ 
-        width: 238px;
-    }
+  .image {
+    width: 238px;
+  }
 
-    .pro-des{
-        font-size: 16px;
-    }
+  .pro-des {
+    font-size: 16px;
+  }
 }
